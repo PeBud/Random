@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  color: ghostwhite;
+  background-image: url(https://i.ytimg.com/vi/GzPwDlxlmHk/maxresdefault.jpg);
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  flex: 2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+nav a {
+  color: darkorange;
+  font-style: bold;
+  text-decoration: inherit;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ethnicity {
+  background: darkgreen;
+  color: ghostwhite;
+}
+
+.Fear {
+  background: darkblue;
+  color: ghostwhite;
+}
+
+.Truth {
+  background: black;
+  color: ghostwhite;
+}
+
+.space {
+  position: absolute;
+  z-index: =2;
+  background: darkblue;
+  transform: scale(2);
+  transition: all 0.5s ease;
+}
